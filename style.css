@@ -1,0 +1,153 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background: url(./images/pattern-background-desktop.svg) no-repeat top center;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (max-width: 375px) {
+    body {
+        background: url(./images/pattern-background-mobile.svg) no-repeat top center;
+        background-size: 100%;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hero {
+    max-width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 375px) {
+    .hero {
+        max-width: 300px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.details {
+    text-align: center;
+    max-width: 20rem;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5rem;
+    margin-top: 0;
+}
+
+@media (max-width: 375px) {
+    .details {
+        max-width: 17rem;
+    }
+}
+
+.price {
+    background-color: hsl(225, 100%, 94%, 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 10px 20px 10px;
+}
+
+@media (max-width: 375px) {
+    .price {
+        gap: 10px;
+        padding: 5px 15px 5px;
+    }
+}
+
+.price p {
+    line-height: 1.5rem;
+    color: hsl(224, 23%, 55%);
+}
+
+span {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price a {
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+@media (max-width: 375px) {
+    .price a {
+        margin-left: 30px;
+    }
+}
+
+.price a:hover {
+    text-decoration: none;
+    color: #793FDF;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 95px 15px;
+    background-color: hsl(245, 75%, 52%);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: .8rem;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 375px) {
+    button {
+        padding: 15px 75px 15px;
+    }
+}
+
+button:hover {
+    background-color: #793FDF;
+    cursor: pointer;
+}
+
+.cancel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: black;
+}
