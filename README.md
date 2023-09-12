@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [HTML](https://your-solution-url.com)
-- Solution URL: [CSS](https://your-solution-url.com)
-- Live Site URL: [LIVE STIE](https://your-live-site-url.com)
+- Solution URL: [HTML](https://github.com/ZahidurRahman8759/Order-Summary-Component/blob/c802e857997a39501b452b83f0f17d3252984f45/index.html)
+- Solution URL: [CSS](https://github.com/ZahidurRahman8759/Order-Summary-Component/blob/c802e857997a39501b452b83f0f17d3252984f45/style.css)
+- Live Site URL: [LIVE STIE](https://zahidurrahman8759.github.io/Order-Summary-Component/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-By doing this project I learned how to set a background image perfectly without any repeatation and strething the image. The lines of code below will help you to set the background.
+By doing this project I learned how to set a background image perfectly without any repetition and stretching the picture. The lines of code below will help you set the background.
 
 ```css
 body {
